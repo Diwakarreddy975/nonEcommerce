@@ -14,7 +14,7 @@ def setup(browser):
         driver.implicitly_wait(10)
 
     else:
-        driver=webdriver.Chrome()
+        driver=webdriver.Firefox()
         driver.implicitly_wait(10)
     return driver
 
